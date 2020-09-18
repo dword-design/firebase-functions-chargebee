@@ -27,8 +27,19 @@ export const userDeleted = functions.auth.user().onDelete(async user => {
     firebase.firestore().collection(collectionName).doc(user.uid).get()
     |> await
     |> invoke('data')
-  await chargebee.customer.delete(customer.customerId).request()
+  // If you use the `delete-user-data` extension it could be the case that the customer record is already deleted.
+  // In that case, the `onCustomerDataDeleted` function below takes care of deleting the Stripe customer object.
+  if (customer) {
+    await chargebee.customer.delete(customer.customerId).request()
+  }
 })
+
+export const customerDeleted = functions.firestore
+  .document(`/${collectionName}/{userId}`)
+  .onDelete(async snapshot => {
+    const customer = snapshot.data()
+    await chargebee.customer.delete(customer.customerId).request()
+  })
 
 export const webHook = functions.https.onRequest(async (req, res) => {
   functions.logger.log(req.body.event_type)
