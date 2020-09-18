@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/firebase-functions-chargebee/compare/v1.0.0...v1.0.1) (2020-09-18)
+
+
+### Bug Fixes
+
+* fix ([0997433](https://github.com/dword-design/firebase-functions-chargebee/commit/09974339956b9dd792f76395b0a61909c56d56dd))
+
 # 1.0.0 (2020-09-18)
 
 
