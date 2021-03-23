@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/dword-design/firebase-functions-chargebee/compare/v1.0.3...v1.0.4) (2021-03-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#8](https://github.com/dword-design/firebase-functions-chargebee/issues/8)) ([a2b0d41](https://github.com/dword-design/firebase-functions-chargebee/commit/a2b0d41fcb89cd3bda0642466e469f48ab7f842f))
+* update dependency @dword-design/functions to v3 ([#9](https://github.com/dword-design/firebase-functions-chargebee/issues/9)) ([6a9d9ef](https://github.com/dword-design/firebase-functions-chargebee/commit/6a9d9efc0441df177b253bbc0f2c96ef302dabed))
+
 ## [1.0.3](https://github.com/dword-design/firebase-functions-chargebee/compare/v1.0.2...v1.0.3) (2021-03-17)
 
 
