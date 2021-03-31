@@ -48,7 +48,9 @@ export const webHook = functions.https.onRequest(async (req, res) => {
     case 'subscription_changed':
     case 'subscription_reactivated': {
       const customer = req.body.content.customer
+
       const subscription = req.body.content.subscription
+
       const userId =
         firebase
           .firestore()
@@ -71,7 +73,9 @@ export const webHook = functions.https.onRequest(async (req, res) => {
     case 'subscription_deleted':
     case 'subscription_cancelled': {
       const customer = req.body.content.customer
+
       const subscription = req.body.content.subscription
+
       const userId =
         firebase
           .firestore()
@@ -93,5 +97,6 @@ export const webHook = functions.https.onRequest(async (req, res) => {
     }
     default:
   }
+
   return res.end()
 })
