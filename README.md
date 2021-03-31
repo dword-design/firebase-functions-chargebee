@@ -64,7 +64,7 @@ $ yarn add @dword-design/firebase-functions-chargebee
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/firebase-functions-chargebee/issues) or [pull request](https://github.com/dword-design/firebase-functions-chargebee/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/firebase-functions-chargebee/issues) or a [pull request](https://github.com/dword-design/firebase-functions-chargebee/pulls)! ⚙️
 
 ## Support
 
