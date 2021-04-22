@@ -1,6 +1,7 @@
 {
   "name": "@dword-design/firebase-functions-chargebee",
   "version": "1.0.7",
+  "description": "",
   "repository": "dword-design/firebase-functions-chargebee",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
