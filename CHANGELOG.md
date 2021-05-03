@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/firebase-functions-chargebee/compare/v1.0.9...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#21](https://github.com/dword-design/firebase-functions-chargebee/issues/21)) ([60dd62a](https://github.com/dword-design/firebase-functions-chargebee/commit/60dd62a4204039fc1f64fd3e35a82bd25d70c3ec))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.9](https://github.com/dword-design/firebase-functions-chargebee/compare/v1.0.8...v1.0.9) (2021-04-28)
 
 
