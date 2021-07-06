@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/dword-design/firebase-functions-chargebee/compare/v2.0.4...v2.0.5) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([0f6c7ef](https://github.com/dword-design/firebase-functions-chargebee/commit/0f6c7efd000c40cce6b98488c5ad853e59c6fa9c))
+
 ## [2.0.4](https://github.com/dword-design/firebase-functions-chargebee/compare/v2.0.3...v2.0.4) (2021-06-21)
 
 
