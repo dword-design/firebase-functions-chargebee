@@ -3343,9 +3343,9 @@ chardet@^0.7.0:
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
 chargebee@^2.5.9:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/chargebee/-/chargebee-2.30.0.tgz#e8675e0e5564ee8420b2c57e58d93c58c9292fed"
-  integrity sha512-PskjmX2VdgCuNpu7U0W3oa1apd7Z/8a92bJwtDGxh3sSAOcHBGHfEujMvxQ4JkOaeaxlXzQ8+Gm02YphvFuUcg==
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/chargebee/-/chargebee-2.31.0.tgz#252f37bef519c9a36c13462a03b62c002e3bd21e"
+  integrity sha512-McF9oBo08LfhECbLimJ+CijA4ONNtYmjvBaPrOTLFdz3KmmC0n1X5iVU242X7nIcZiGAqyBgtLgXJafn15eJdA==
   dependencies:
     q ">=1.0.1"
     safer-buffer "2.1.2"
