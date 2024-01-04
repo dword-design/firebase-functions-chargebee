@@ -1,3 +1,10 @@
+## [2.0.13](https://github.com/dword-design/firebase-functions-chargebee/compare/v2.0.12...v2.0.13) (2024-01-04)
+
+
+### Bug Fixes
+
+* update dependency chargebee to v2.31.0 ([bdbbe5c](https://github.com/dword-design/firebase-functions-chargebee/commit/bdbbe5c2baf35abf2ff26d038e847202015cf365))
+
 ## [2.0.12](https://github.com/dword-design/firebase-functions-chargebee/compare/v2.0.11...v2.0.12) (2023-11-30)
 
 
