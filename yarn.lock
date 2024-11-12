@@ -3342,13 +3342,10 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-chargebee@^2.5.9:
-  version "2.34.1"
-  resolved "https://registry.yarnpkg.com/chargebee/-/chargebee-2.34.1.tgz#2766f9174172a79c375ca9dd694e6841eed23a79"
-  integrity sha512-mFfA6U1oLFgWV8R6NOpaGbUe5cJcb5951OrU3gZWPmOqRXikBD+Bm8p8Nn+tJlbPIYNYYfXFC0evN7TgTebHvQ==
-  dependencies:
-    q ">=1.0.1"
-    safer-buffer "2.1.2"
+chargebee@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/chargebee/-/chargebee-3.0.2.tgz#cd4329b9679e9298de378ba3a03f488a2244cc82"
+  integrity sha512-2zDWMz7t178/YrQzBvwM84c7o5TPCtD7UmYJLdzUdWYr5qp9kEVX8x13wAPK55wYWJAMMMURZz8zRcEbFvMjjQ==
 
 chokidar@3.5.3, "chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.0:
   version "3.5.3"
@@ -8953,7 +8950,7 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-q@>=1.0.1, q@^1.5.1:
+q@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
@@ -9432,7 +9429,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safer-buffer@2.1.2, "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
