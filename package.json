@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@dword-design/functions": "^4.0.0",
-    "chargebee": "^2.5.9"
+    "chargebee": "^3.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^8.0.0",
